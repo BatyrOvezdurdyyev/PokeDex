@@ -409,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 583DB95714EA89861DC50598 /* Pods-PokeDex.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JMM4RM96A;
 				INFOPLIST_FILE = PokeDex/Info.plist;
@@ -423,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 44C2916C3DFE3C9AAA256DDE /* Pods-PokeDex.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JMM4RM96A;
 				INFOPLIST_FILE = PokeDex/Info.plist;
